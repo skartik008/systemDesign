@@ -12,5 +12,5 @@ app.listen(port, () => console.log('Listening on port '+ port +'.'));
 
 app.get('/hello',(req,res) => {
 	console.log('Headers:', req.headers);
-	res.send('Hello!\n');
+	res.send('Hello this is demo for proxy!\n');
 });
