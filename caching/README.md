@@ -1,5 +1,5 @@
 
-## To execute, please open two tab instances of the browser and terminal
+## To execute, please open two tab instances of the browser and one instance of terminal
 
 ### Running the server
 In the terminal run the command  
