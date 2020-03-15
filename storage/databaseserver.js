@@ -1,4 +1,6 @@
 
+// Program to demonstrate of reading and writing data to persistent vs volatile storage
+
 const express = require('express');
 const fs = require('fs');
 
