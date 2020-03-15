@@ -3,14 +3,14 @@
 
 ### Running the server
 In one of the terminal run the command
-** node server.js**
+**node server.js**
 
 ### In another terminal, run any of the following
 
-** GET method**
+**GET method**
 curl --header 'content-type: application/json' localhost:3000/hello
 
 curl --header localhost:3000/hello
 
-** POST method**
+**POST method**
 curl --header 'content-type: application/json' localhost:3000/hello --data '{"foo":"bar"}'
