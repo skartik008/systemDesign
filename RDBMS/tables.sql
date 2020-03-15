@@ -34,14 +34,6 @@ INSERT INTO payments VALUES('marli', '2020-02-02',10);
 INSERT INTO balances VALUES('antoine', 0);
 INSERT INTO balances VALUES('clement', 1000);
 
-INSERT INTO large_table (random_int)
-SELECT round(RAND() * 1000000000)
-FROM generate_series(1,5000000);
-
-INSERT INTO large_table ( random_int ) VALUES ( rand() * 3333 );
-
-UPDATE large_table SET random_int = 1000 * RAND() WHERE 1;
-
 /*
 Defining a procedure to fill the table large table with a million values
 */
