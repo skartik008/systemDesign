@@ -20,7 +20,7 @@ In one of the terminal run the command
 #### **Persistent Storage, i.e. storing in database**
 
 ##### Putting the data  
-**curl localhost:3001/disk/foo --header 'content-type: application/json' --data '{"data":"This is some data on disk."}'**  
+**curl localhost:3001/disk/foo --header 'content-type: application/json' --data '{"data":"This is writing data on disk."}'**  
 ##### Getting the data   
-**curl localhost:3001/disk/foo -w "\n"**
+**curl localhost:3001/disk/foo -w "\n"**  
 *Data is retained, even if the server is quit*
