@@ -7,5 +7,5 @@
 - **Isolation** - Executing transactions concurrently has the same results as if the transactions were executed serially
 - **Durability** - Once a transaction has been committed, it will remain so
 
-### database used
+### Database used
 **MySQL**
