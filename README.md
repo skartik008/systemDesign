@@ -3,7 +3,7 @@
 ## Prerequisites:
 
 - **Node JS**
-- **Express (*npm install express*)**
+- **Express**
 - **MySQL**
 - **Redis**
 - **nginx**
