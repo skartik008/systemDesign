@@ -9,3 +9,6 @@
 
 ### Database used
 **MySQL**
+
+#### Indexing
+Speeds up the search 

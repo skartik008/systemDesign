@@ -1,5 +1,7 @@
 
-
+/*
+ Run these queries after running the ones in table
+*/
 
 -- Sum the number of payments for each user
 
@@ -50,5 +52,5 @@ COMMIT;
 -- Find the 10 largest Indexes
 SELECT * FROM large_table ORDER BY random_int DESC LIMIT 10;
 
--- Create an index on the ints in the table
+-- Create an index on the ints in the table large_table
 CREATE INDEX large_table_random_int_idx ON large_table(random_int);
