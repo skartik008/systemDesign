@@ -4,6 +4,9 @@
 
 - **Node JS**
 - **Express (*npm install express*)**
+- **MySQL**
+- **Redis**
+- **nginx**
 
 ### These programs can be used to demonstrate the working of the System Design Concepts.
 
