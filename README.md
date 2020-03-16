@@ -8,6 +8,7 @@
 - **Redis**
 - **nginx**
 - **axios**
+- **etcd**
 
 ### These programs can be used to demonstrate the working of the System Design Concepts.
 
