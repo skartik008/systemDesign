@@ -27,7 +27,7 @@ app.get('/withcache/index.html', (req,res) => {
       }
 
       database.get('index.html', page => {
-          redis.set('index.html', page, 'EX', 10);
+          redis.set('index.html', page, 'EX', 120);
           res.send(page);
       });
     });
