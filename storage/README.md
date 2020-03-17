@@ -5,7 +5,7 @@
 In one of the terminal run the command  
 **node databaseserver.js**
 
-### In another terminal, the following
+### In another terminal, please do the following
 
 #### **Volatile Memory, i.e. storing in memory**  
 ##### Putting the data
