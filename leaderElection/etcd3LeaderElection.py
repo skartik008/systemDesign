@@ -1,6 +1,7 @@
 
 # This code is from the site:
 # https://www.sandtable.com/etcd3-leader-election-using-python/
+# Have not executed this code, kept here for reference
 
 """etcd3 Leader election."""
 
