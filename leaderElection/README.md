@@ -17,5 +17,5 @@ In one of the terminal run the command
 ### In terminal server4
 **python leaderElection.py server4**
 
-####Output explained
+#### Output explained
 While one of the instance is the leader, others will follow. As soon as the leader server goes down, election happens to find a leader.
