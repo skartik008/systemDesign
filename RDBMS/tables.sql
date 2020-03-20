@@ -42,9 +42,9 @@ DELIMITER $$
 CREATE PROCEDURE generate_data()
 BEGIN
   DECLARE i INT DEFAULT 0;
-  WHILE i < 1000000 DO
+  WHILE i < 10000000 DO
     INSERT INTO large_table VALUES (
-      1000000 * RAND()
+      i * 1000 * RAND()
     );
     SET i = i + 1;
   END WHILE;
@@ -55,4 +55,5 @@ DELIMITER ;
 CALL generate_data();
 
 -- Drop the procedure
-DROP PROCEDURE generate_data;
+
+DROP PROCEDURE IF EXISTS generate_data;

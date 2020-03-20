@@ -54,3 +54,5 @@ SELECT * FROM large_table ORDER BY random_int DESC LIMIT 10;
 
 -- Create an index on the ints in the table large_table
 CREATE INDEX large_table_random_int_idx ON large_table(random_int);
+
+DROP INDEX large_table_random_int_idx ON large_table;
